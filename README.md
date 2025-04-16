@@ -1,2 +1,1 @@
-# johnpapakostas.github.io
-John Papakostas Site
+John Papakostas Personal Site
