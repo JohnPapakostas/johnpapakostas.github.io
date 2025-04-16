@@ -23,3 +23,9 @@ body {
   margin-bottom: 1rem;
   border: 3px solid #555;
 }
+
+.bio {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
