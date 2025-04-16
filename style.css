@@ -29,3 +29,24 @@ body {
   font-size: 1.1rem;
   color: #555;
 }
+
+.education {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.education h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
