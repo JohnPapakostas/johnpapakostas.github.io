@@ -31,22 +31,51 @@ body {
 }
 
 .education {
-  margin-top: 2rem;
-  text-align: left;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .education h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #222;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
 }
 
 .education ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .education li {
+  background-color: #f9f9f9;
+  padding: 1rem;
   margin-bottom: 1rem;
-  line-height: 1.5;
+  border-left: 4px solid #4a90e2;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
+
+.education li:hover {
+  background-color: #f0f8ff;
+  border-left-color: #007acc;
+}
+
+.education strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.education br {
+  line-height: 2;
+}
+
