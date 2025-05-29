@@ -189,17 +189,17 @@ body {
 }
 
 .work-experience li {
-  background-color: #fff8f0;
+  background-color: #f9f9f9;
   padding: 1rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #f57c00; /* Deep orange */
+  border-left: 4px solid #f57c00;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .work-experience li:hover {
-  background-color: #fff3e0; /* Light orange on hover */
-  border-left-color: #ef6c00; /* Slightly darker orange */
+  background-color: #f0f8ff;
+  border-left-color: #ef6c00;
 }
 
 .work-experience strong {
