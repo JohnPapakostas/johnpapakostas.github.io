@@ -58,3 +58,11 @@ function drawLightning() {
   window.onload = () => {
     randomLightning();
   };
+  
+  setInterval(() => {
+    drawLightning();
+    document.body.style.backgroundColor = '#ffffff';
+    setTimeout(() => {
+      document.body.style.backgroundColor = '#f2f2f2';
+    }, 100);
+  }, Math.random() * 10000 + 5000);
