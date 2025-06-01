@@ -300,8 +300,6 @@ body {
   color: #333;
 }
 
-
-/* Contact Section */
 .contact {
   margin-top: 3rem;
   padding: 1rem;
@@ -311,25 +309,44 @@ body {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 .contact h2 {
   font-size: 1.8rem;
   color: #222;
   margin-bottom: 1.5rem;
+  text-align: center;
   border-bottom: 2px solid #eee;
   padding-bottom: 0.5rem;
 }
 
-.contact p {
-  font-size: 1.1rem;
-  color: #555;
-  margin: 0.5rem 0;
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  background-color: #e0f7fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00acc1;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.contact li:hover {
+  background-color: #b2ebf2;
+  border-left-color: #00838f;
+}
+
+.contact strong {
+  font-size: 1.2rem;
+  color: #333;
 }
 
 .contact a {
-  color: #007acc;
+  color: #00838f;
   text-decoration: none;
   font-weight: 500;
 }
