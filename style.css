@@ -255,7 +255,6 @@ body {
   color: white;
 }
 
-/* Skills Section */
 .skills {
   margin-top: 3rem;
   padding: 1rem;
@@ -280,24 +279,27 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
 }
 
 .skills li {
-  background-color: #e3f2fd;
-  padding: 0.75rem 1rem;
+  background-color: #f1fdf4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #43a047;
   border-radius: 8px;
-  font-weight: 500;
-  color: #1565c0;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
 }
 
 .skills li:hover {
-  background-color: #bbdefb;
+  background-color: #e0f2f1;
+  border-left-color: #2e7d32;
 }
+
+.skills strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+
 
 /* Contact Section */
 .contact {
