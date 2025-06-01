@@ -389,6 +389,14 @@ body.dark a {
   color: #90caf9;
 }
 
+body.dark .education .li strong,
+body.dark .work-experience .li strong,
+body.dark .publications .li strong,
+body.dark .skills .li strong,
+body.dark .contact-list .li strong{
+  background-color: #f0f0f0;
+}
+
 body.dark .copy-btn {
   background-color: #6a1b9a;
 }
