@@ -66,3 +66,46 @@ function drawLightning() {
       document.body.style.backgroundColor = '#f2f2f2';
     }, 100);
   }, Math.random() * 10000 + 5000);
+
+  window.addEventListener("scroll", () => {
+    const sections = document.querySelectorAll("section[id]");
+    const scrollPos = window.scrollY + 100;
+
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      const id = section.getAttribute("id");
+      const link = document.querySelector(`.navbar a[href="#${id}"]`);
+
+      if (scrollPos >= top && scrollPos < top + height) {
+        link?.classList.add("active");
+      } else {
+        link?.classList.remove("active");
+      }
+    });
+  });
+
+  function toggleTheme() {
+    document.body.classList.toggle('dark');
+
+    const icon = document.getElementById("themeButton").querySelector("i");
+    icon.classList.toggle("fa-sun");
+    icon.classList.toggle("fa-moon");
+
+    // Store user preference
+    if (document.body.classList.contains('dark')) {
+      localStorage.setItem("theme", "dark");
+    } else {
+      localStorage.setItem("theme", "light");
+    }
+  }
+
+  window.onload = () => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+      document.body.classList.add("dark");
+      const icon = document.getElementById("themeButton").querySelector("i");
+      icon.classList.add("fa-sun");
+      icon.classList.remove("fa-moon");
+    }
+  };

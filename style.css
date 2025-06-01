@@ -336,3 +336,64 @@ body {
 .contact-list a:hover {
   text-decoration: underline;
 }
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10000;
+}
+
+#themeButton {
+  background-color: #ffffffcc;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+#themeButton:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dark Theme */
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container,
+body.dark .education,
+body.dark .work-experience,
+body.dark .papers,
+body.dark .skills,
+body.dark .contact {
+  background-color: #1e1e1e;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .education li,
+body.dark .work-experience li,
+body.dark .papers li,
+body.dark .skills li,
+body.dark .contact-list li {
+  background-color: #2a2a2a;
+}
+
+body.dark a {
+  color: #90caf9;
+}
+
+body.dark .copy-btn {
+  background-color: #6a1b9a;
+}
+
+body.dark .copy-btn:hover {
+  background-color: #8e24aa;
+}
+
