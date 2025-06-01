@@ -370,7 +370,7 @@ body.dark {
 body.dark .container,
 body.dark .education,
 body.dark .work-experience,
-body.dark .papers,
+body.dark .publications,
 body.dark .skills,
 body.dark .contact {
   background-color: #1e1e1e;
@@ -379,7 +379,7 @@ body.dark .contact {
 
 body.dark .education li,
 body.dark .work-experience li,
-body.dark .papers li,
+body.dark .publications li,
 body.dark .skills li,
 body.dark .contact-list li {
   background-color: #2a2a2a;
