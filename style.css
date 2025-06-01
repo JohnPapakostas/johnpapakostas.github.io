@@ -80,7 +80,7 @@ body {
   line-height: 2;
 }
 
-.papers {
+.publications {
   margin-top: 3rem;
   padding: 1rem;
   background-color: #fff;
@@ -91,7 +91,7 @@ body {
   margin-right: auto;
 }
 
-.papers h2 {
+.publications h2 {
   font-size: 1.8rem;
   color: #222;
   margin-bottom: 1.5rem;
@@ -100,13 +100,13 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.papers ul {
+.publications ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.papers li {
+.publications li {
   background-color: #f9f9f9;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -115,17 +115,17 @@ body {
   transition: all 0.3s ease;
 }
 
-.papers li:hover {
+.publications li:hover {
   background-color: #f3e5f5;
   border-left-color: #7b1fa2;
 }
 
-.papers strong {
+.publications strong {
   font-size: 1.2rem;
   color: #333;
 }
 
-.papers a {
+.publications a {
   display: inline-block;
   margin-top: 0.5rem;
   color: #7b1fa2;
@@ -133,7 +133,7 @@ body {
   font-weight: 500;
 }
 
-.papers a:hover {
+.publications a:hover {
   text-decoration: underline;
 }
 
@@ -253,4 +253,85 @@ body {
 .navbar a.active {
   background-color: #007acc;
   color: white;
+}
+
+/* Skills Section */
+.skills {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills li {
+  background-color: #e3f2fd;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1565c0;
+  transition: background-color 0.3s;
+}
+
+.skills li:hover {
+  background-color: #bbdefb;
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.contact a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
