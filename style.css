@@ -338,28 +338,38 @@ body {
 }
 
 /* Theme Toggle Button */
-.theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 10000;
+.container-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 #themeButton {
-  background-color: #ffffffcc;
+  background-color: #f3f3f3;
   border: none;
-  border-radius: 8px;
-  padding: 8px 12px;
-  font-size: 0.95rem;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 1rem;
   color: #333;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
 }
 
 #themeButton:hover {
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
 }
+
+body.dark #themeButton {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark #themeButton:hover {
+  background-color: #3a3a3a;
+}
+
 
 /* Dark Theme */
 body.dark {
