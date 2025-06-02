@@ -388,11 +388,14 @@ body.dark .education li,
 body.dark .work-experience li,
 body.dark .publications li,
 body.dark .skills li,
-body.dark .contact-list li {
+body.dark .contact li {
   background-color: #2a2a2a;
+  color: #cfd8dc;
 }
 
-body.dark p, strong {
+body.dark p,
+body.dark strong,
+body.dark li {
   color: #a0c8f0;
 }
 
@@ -400,19 +403,11 @@ body.dark a {
   color: #90caf9;
 }
 
-body.dark .education .li strong,
-body.dark .work-experience .li strong,
-body.dark .publications .li strong,
-body.dark .skills .li strong,
-body.dark .contact-list .li strong{
-  background-color: #f0f0f0;
-}
-
 body.dark .copy-btn {
   background-color: #6a1b9a;
+  color: #fff;
 }
 
 body.dark .copy-btn:hover {
   background-color: #8e24aa;
 }
-
