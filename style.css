@@ -301,16 +301,12 @@ body {
 }
 
 .contact li {
-  background-color: #e0f7fa;
+  background-color: #f9f9f9;
   padding: 1rem;
   margin-bottom: 1rem;
   border-left: 4px solid #00acc1;
   border-radius: 8px;
   transition: all 0.3s ease;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .contact li:hover {
