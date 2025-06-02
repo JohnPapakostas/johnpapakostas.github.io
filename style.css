@@ -391,7 +391,8 @@ body.dark .contact li {
 
 body.dark p,
 body.dark strong,
-body.dark li {
+body.dark li,
+body.dark h2 {
   color: #a0c8f0;
 }
 
