@@ -411,3 +411,70 @@ body.dark .copy-btn {
 body.dark .copy-btn:hover {
   background-color: #8e24aa;
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p, li, a, strong {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .theme-toggle {
+    top: 1rem;
+    right: 1rem;
+    transform: scale(0.9);
+  }
+
+  .copy-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  pre.bibtex-entry {
+    font-size: 0.8rem;
+    overflow-x: auto;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
