@@ -391,9 +391,12 @@ body.dark .contact li {
 
 body.dark p,
 body.dark strong,
-body.dark li,
-body.dark h2 {
+body.dark li {
   color: #a0c8f0;
+}
+
+body.dark h2 {
+  color: #ffffff;
 }
 
 body.dark a {
