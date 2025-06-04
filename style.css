@@ -386,6 +386,26 @@ body {
   margin-bottom: 1rem;
 }
 
+.company-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 0.5rem;
+  padding: 4px 10px;
+  background-color: #f57c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.company-link:hover {
+  background-color: #ef6c00;
+  text-decoration: none;
+}
+
 #themeButton {
   background-color: #f3f3f3;
   border: none;
@@ -531,4 +551,12 @@ body.dark .paper-link {
 
 body.dark .paper-link:hover {
   background-color: #2196f3;
+}
+
+body.dark .company-link {
+  background-color: #ff9800;
+}
+
+body.dark .company-link:hover {
+  background-color: #ffa726;
 }
