@@ -406,6 +406,26 @@ body {
   text-decoration: none;
 }
 
+.school-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 0.5rem;
+  padding: 4px 10px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.school-link:hover {
+  background-color: #007acc;
+  text-decoration: none;
+}
+
 #themeButton {
   background-color: #f3f3f3;
   border: none;
@@ -559,4 +579,12 @@ body.dark .company-link {
 
 body.dark .company-link:hover {
   background-color: #ffa726;
+}
+
+body.dark .school-link {
+  background-color: #1565c0;
+}
+
+body.dark .school-link:hover {
+  background-color: #1e88e5;
 }
