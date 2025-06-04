@@ -89,7 +89,7 @@ function drawLightning() {
     document.body.classList.toggle('dark');
 
     const icon = document.getElementById("themeButton").querySelector("i");
-    icon.classList.toggle("fa-sun");
+    //icon.classList.toggle("fa-sun");
     icon.classList.toggle("fa-moon");
 
     // Store user preference
