@@ -320,7 +320,6 @@ body {
   color: #333;
 }
 
-<<<<<<< Updated upstream
 .contact {
   margin-top: 3rem;
   padding: 1rem;
@@ -525,6 +524,7 @@ nav a {
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 body.dark .paper-link {
   background-color: #1976d2;
 }
