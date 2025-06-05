@@ -137,26 +137,6 @@ body {
   text-decoration: underline;
 }
 
-.paper-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 0.5rem;
-  padding: 6px 12px;
-  background-color: #4a90e2;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  font-size: 0.95rem;
-  transition: background-color 0.3s ease;
-}
-
-.paper-link:hover {
-  background-color: #007acc;
-  text-decoration: none;
-}
-
 .copy-btn {
   margin-top: 0.5rem;
   background-color: #7b1fa2;
@@ -423,6 +403,26 @@ body {
 
 .school-link:hover {
   background-color: #4a90e2;
+  text-decoration: none;
+}
+
+.publication-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0.5rem;
+  padding: 4px 10px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.publication-link:hover {
+  background-color: #007acc;
   text-decoration: none;
 }
 
