@@ -412,7 +412,7 @@ body {
   gap: 6px;
   margin-top: 0.5rem;
   padding: 4px 10px;
-  background-color: #4a90e2;
+  background-color: #9c27b0;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -422,7 +422,7 @@ body {
 }
 
 .publication-link:hover {
-  background-color: #007acc;
+  background-color: #7b1fa2;
   text-decoration: none;
 }
 
@@ -587,4 +587,12 @@ body.dark .school-link {
 
 body.dark .school-link:hover {
   background-color: #1e88e5;
+}
+
+body.dark .publication-link {
+  background-color: #7b1fa2;
+}
+
+body.dark .publication-link:hover {
+  background-color: #9c27b0;
 }
