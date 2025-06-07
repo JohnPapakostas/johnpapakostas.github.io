@@ -463,7 +463,10 @@ body.dark .contact li {
   color: #cfd8dc;
 }
 
-body.dark p,
+body.dark p {
+  color: #fff;
+}
+
 body.dark strong,
 body.dark li {
   color: #a0c8f0;
