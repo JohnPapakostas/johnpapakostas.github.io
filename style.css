@@ -400,7 +400,7 @@ body {
   gap: 6px;
   margin-top: 0.5rem;
   padding: 4px 10px;
-  background-color: #9c27b0;
+  background-color: #7b1fa2;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -410,7 +410,7 @@ body {
 }
 
 .publication-link:hover {
-  background-color: #7b1fa2;
+  background-color: #9c27b0;
   text-decoration: none;
 }
 
@@ -555,6 +555,7 @@ nav a:hover {
 
 body.dark .paper-link {
   background-color: #1976d2;
+  color: #fff;
 }
 
 body.dark .paper-link:hover {
@@ -563,6 +564,7 @@ body.dark .paper-link:hover {
 
 body.dark .company-link {
   background-color: #ff9800;
+  color: #fff;
 }
 
 body.dark .company-link:hover {
@@ -571,6 +573,7 @@ body.dark .company-link:hover {
 
 body.dark .school-link {
   background-color: #1565c0;
+  color: #fff;
 }
 
 body.dark .school-link:hover {
