@@ -336,7 +336,7 @@ body {
 
 .contact a {
   text-decoration: none;
-  color: #00838f;
+  color: black;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -486,54 +486,6 @@ body.dark .copy-btn:hover {
   background-color: #8e24aa;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin: 2rem 1rem;
-    padding: 1.5rem;
-  }
-
-  .profile-pic {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 1rem;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  p, li, a, strong {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
-  }
-
-  .theme-toggle {
-    top: 1rem;
-    right: 1rem;
-    transform: scale(0.9);
-  }
-
-  .copy-btn {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
-
-  pre.bibtex-entry {
-    font-size: 0.8rem;
-    overflow-x: auto;
-  }
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -587,4 +539,52 @@ body.dark .publication-link {
 
 body.dark .publication-link:hover {
   background-color: #9c27b0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p, li, a, strong {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .theme-toggle {
+    top: 1rem;
+    right: 1rem;
+    transform: scale(0.9);
+  }
+
+  .copy-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  pre.bibtex-entry {
+    font-size: 0.8rem;
+    overflow-x: auto;
+  }
 }
