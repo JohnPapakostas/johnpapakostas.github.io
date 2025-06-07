@@ -582,6 +582,7 @@ body.dark .school-link:hover {
 
 body.dark .publication-link {
   background-color: #7b1fa2;
+  color: #fff;
 }
 
 body.dark .publication-link:hover {
