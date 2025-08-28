@@ -587,4 +587,14 @@ body.dark .publication-link:hover {
     font-size: 0.8rem;
     overflow-x: auto;
   }
+
+ .countdown {
+   font-family: Arial, sans-serif;
+   font-size: 2em;
+   font-weight: bold;
+   color: #333;
+   text-align: center;
+   margin: 20px 0;
+ }
+
 }
